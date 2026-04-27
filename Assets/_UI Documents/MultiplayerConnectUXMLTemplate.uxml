@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 0; align-items: flex-start; gap: 8px; padding-top: 8px; padding-left: 8px;">
+        <ui:TextField name="PlayerNameField" label="Nickname" value="Player" max-length="16" style="width: 420px; min-height: 36px; font-size: 18px;"/>
+        <ui:TextField name="ConnectionCodeField" label="Relay Join Code" max-length="6" style="width: 420px; min-height: 36px; font-size: 18px;"/>
+        <ui:Label text="" name="HostInfoLabel" style="display: none; font-size: 16px; color: rgb(255, 236, 168); -unity-font-style: bold; white-space: normal;"/>
+        <ui:Button text="Start Host" name="ButtonHost" style="width: 200px; height: 50px; font-size: 30px; background-color: rgb(0, 179, 255);"/>
+        <ui:Button text="Disconnect" name="ButtonDisconnect" enabled="false" style="width: 200px; height: 50px; font-size: 30px;"/>
+        <ui:Button text="Start Client" name="ButtonClient" style="width: 200px; height: 50px; font-size: 30px; background-color: rgb(255, 128, 65);"/>
+    </ui:VisualElement>
+</ui:UXML>

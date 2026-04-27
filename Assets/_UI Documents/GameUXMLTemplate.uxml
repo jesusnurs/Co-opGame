@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="HudRoot" style="width: 100%; height: 100%; position: relative;">
+        <ui:Image source="project://database/Resources/unity_builtin_extra?fileID=10305&amp;guid=0000000000000000f000000000000000&amp;type=0#Default-Checker" name="Cursor" style="position: absolute; left: 50%; top: 50%; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px;" />
+        <ui:VisualElement name="ThrowChargeContainer" style="position: absolute; left: 50%; top: 50%; width: 110px; height: 10px; margin-left: -55px; margin-top: 20px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgba(15, 15, 15, 0.9); border-right-color: rgba(15, 15, 15, 0.9); border-top-color: rgba(15, 15, 15, 0.9); border-bottom-color: rgba(15, 15, 15, 0.9); background-color: rgba(15, 15, 15, 0.35); display: none;">
+            <ui:VisualElement name="ThrowChargeFill" style="width: 0%; height: 100%; background-color: rgba(255, 196, 78, 0.95);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
